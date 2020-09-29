@@ -3,14 +3,13 @@ import {View, StyleSheet} from 'react-native';
 
 const style = StyleSheet.create({
     card: {
-        borderWidth:1,
-        borderRadius:2,
-        borderColor: '#ddd',
-        marginHorizontal: 10,
-        marginBottom: 20,
-        backgroundColor: '#eee',
-        padding: 5,
-        height: 200
+    borderWidth: 1,
+    borderRadius: 2,
+    borderColor: '#ddd',
+    marginHorizontal: 10,
+    marginBottom: 10,
+    backgroundColor: '#eee',
+    padding: 5
         
     }
 })
