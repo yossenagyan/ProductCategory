@@ -4,9 +4,9 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 
 import { Header } from './src/components/common';
-import CategoryList from './src/components/CategoryList'
+import CategoryList from './src/components/CategoryList';
 
-import reducers from './src/reducers'
+import reducers from './src/reducers';
 
 const store = createStore(reducers)
 
@@ -20,5 +20,5 @@ class App extends Component {
      );
   }
 }
- 
+
 export default App;

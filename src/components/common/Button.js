@@ -22,7 +22,9 @@ const style = StyleSheet.create({
 class Button extends Component {
     render() { 
         return ( 
-            <TouchableOpacity style={style.button} onPress={this.props.onPress}>
+            <TouchableOpacity 
+            style={style.button} 
+            onPress={this.props.onPress}>
                 <Text style= {style.text}>
                     {this.props.children}
                 </Text>
